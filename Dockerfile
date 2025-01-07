@@ -7,7 +7,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git
 
 # Clone the repository
-RUN git clone https://github.com/elwood65/MediaFlowProaxy
+RUN git clone https://github.com/elwood65/MediaFlowProaxy .
 # Copy the local config.json file to the container
 
 # Install any needed packages specified in requirements.txt
